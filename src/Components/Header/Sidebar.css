@@ -1,0 +1,39 @@
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    right: -250px; /* Initially hide the sidebar */
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+    transition: 0.3s;
+  }
+  
+  .sidebar div {
+    padding: 10px 15px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .sidebar div:hover {
+    background-color: #444;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .close-btn:focus {
+    outline: none;
+  }
+  
